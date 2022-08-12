@@ -1,6 +1,9 @@
+
 <script lang="ts">
 	import { spring } from 'svelte/motion';
-
+	import { Confetti } from "svelte-confetti"
+	import ToggleConfetti from './ToggleConfetti.svelte'
+	import ConfettiOnClick from './ConfettiOnClick.svelte'
 	let count = 0;
 
 	const displayed_count = spring();
@@ -11,14 +14,34 @@
 		// handle negative numbers
 		return ((n % m) + m) % m;
 	}
+
+	function decrease() {
+	
+	(count -= 1);
+	
+	
+	}
+
 </script>
 
 <div class="counter">
-	<button on:click={() => (count -= 1)} aria-label="Decrease the counter by one">
-		<svg aria-hidden="true" viewBox="0 0 1 1">
-			<path d="M0,0.5 L1,0.5" />
-		</svg>
-	</button>
+	<ToggleConfetti>
+		<button  on:click={() => (count -= 5)} slot="label">-5
+	
+		</button>
+	
+		<Confetti x={[-1, -0.25]} y={[0, 0.5]} />
+	</ToggleConfetti>
+
+	<ToggleConfetti>
+		<button  on:click={decrease} slot="label">-
+	
+		</button>
+	
+		<Confetti x={[-0.25, 0.25]} y={[-0.75, -0.25]} />
+	</ToggleConfetti>
+
+
 
 	<div class="counter-viewport">
 		<div class="counter-digits" style="transform: translate(0, {100 * offset}%)">
@@ -27,12 +50,32 @@
 		</div>
 	</div>
 
-	<button on:click={() => (count += 5)} aria-label="Increase the counter by five">
-		<svg aria-hidden="true" viewBox="0 0 1 1">
-			<path d="M0,0.5 L1,0.5 M0.5,0 L0.5,1" />
-		</svg>
-	</button>
+	<ToggleConfetti>
+		<button  on:click={() => (count += 1)} slot="label">+
+	
+		</button>
+	
+		<Confetti x={[-0.25, 0.25]} y={[0.75, 1.5]} />
+	</ToggleConfetti>
+
+
+	<ToggleConfetti>
+		<button  on:click={() => (count += 5)} slot="label">+5
+	
+		</button>
+	
+		<Confetti x={[0.25, 1]} y={[0, 0.5]} />
+	</ToggleConfetti>
+
+
+	
+	
+
+
 </div>
+
+
+
 
 <style>
 	.counter {

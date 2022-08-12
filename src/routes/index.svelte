@@ -16,16 +16,14 @@
 		<span class="welcome">
 			<picture>
 				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
+				<img src="welcome.png" alt="Welcome" />
 			</picture>
 		</span>
 
-		To my first<br />SvelteKit app
+		To a compliation  <br /> of awesome <br />SvelteKit demo apps
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+
 
 	<Counter2 />
 </section>

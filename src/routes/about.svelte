@@ -23,7 +23,7 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. Source code:
+		This is a compliation of <a href="https://kit.svelte.dev">SvelteKit</a> apps. Setup by an analyst who moonlights as a Dev Github:
 	</p>
 
 	<pre>github.com/johnychan/</pre>
