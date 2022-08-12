@@ -20,7 +20,7 @@
 			</picture>
 		</span>
 
-		A compliation  <br /> of awesome <br />SvelteKit demo apps
+		A compilation  <br /> of awesome <br />SvelteKit demo apps
 	</h1>
 
 
