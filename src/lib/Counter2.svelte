@@ -102,16 +102,8 @@
 		background-color: var(--secondary-color);
 	}
 
-	svg {
-		width: 25%;
-		height: 25%;
-	}
+	
 
-	path {
-		vector-effect: non-scaling-stroke;
-		stroke-width: 2px;
-		stroke: var(--text-color);
-	}
 
 	.counter-viewport {
 		width: 8em;
