@@ -1,4 +1,7 @@
 # svelte App Compliation
+
+[Demo](https://svelte-app-one-rho.vercel.app/)
+
 This is a modification of the svelte kit demo app to include the following
 - https://mitcheljager.github.io/svelte-confetti/?ref=madewithsvelte.com
 - https://hexwords.netlify.app/?ref=madewithsvelte.com
