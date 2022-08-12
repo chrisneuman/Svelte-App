@@ -1,5 +1,5 @@
 <script>
-  //  import 'ghostsui';
+ 
     import { copy } from '$lib';
 
     let text = 'https://www.vote.org/polling-place-locator/';

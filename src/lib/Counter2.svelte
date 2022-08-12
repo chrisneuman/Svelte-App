@@ -1,9 +1,9 @@
 
 <script lang="ts">
 	import { spring } from 'svelte/motion';
-	import { Confetti } from "svelte-confetti"
-	import ToggleConfetti from './ToggleConfetti.svelte'
-	import ConfettiOnClick from './ConfettiOnClick.svelte'
+	import { Confetti } from "svelte-confetti";
+	import ToggleConfetti from './ToggleConfetti.svelte';
+	import ConfettiOnClick from './ConfettiOnClick.svelte';
 	let count = 0;
 
 	const displayed_count = spring();

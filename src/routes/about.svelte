@@ -26,7 +26,7 @@
 		This is a compliation of <a href="https://kit.svelte.dev">SvelteKit</a> apps. Setup by an analyst who moonlights as a Dev Github:
 	</p>
 
-	<pre>github.com/johnychan/</pre>
+	<pre>github.com/chrisneuman/</pre>
 
 	<p>
 		The page you're looking at is purely static HTML, with no client-side interactivity needed.

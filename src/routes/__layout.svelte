@@ -10,7 +10,9 @@
 </main>
 
 <footer>
-	<p>visit <a href="madatyourmom.com">MadAtYourMom.com</a> </p>
+	<p>visit <a rel="external" href="https://madatyourmom.com">MadAtYourMom.com</a></p>
+	
+
 </footer>
 
 <style>
